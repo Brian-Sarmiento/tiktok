@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+  background: black;
+  color: white;
+}
+
+.feed {
+  scroll-snap-type: y mandatory;
+}
+
+.feed-item {
+  scroll-snap-align: start;
+}
